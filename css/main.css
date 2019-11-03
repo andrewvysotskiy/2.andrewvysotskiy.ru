@@ -1,0 +1,323 @@
+body {
+	font-family: Tahoma, Arial, sans-serif;
+	color: #0e1b3e;
+	padding: 0;
+	margin: 0;
+	letter-spacing: 0.02em;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+	outline: none;
+}
+a {
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	line-height: 1.55em;
+}
+
+section {
+	padding-top: 100px;
+}
+
+ul,li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	line-height: 1.55em;
+}
+
+.d-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+.align-items-center {
+	align-items: center;
+}
+.header {
+	background: rgb(74,125,252);
+    background: linear-gradient(121deg, rgba(74,125,252,1) 0%, rgba(16,72,211,1) 100%);
+	color:#fff;
+	padding-top: 70px;
+	padding-bottom: 63px;
+	}
+
+.logo {
+	
+	display: block;
+	margin: 0 auto;
+	width: 130px;
+	margin-bottom: 162px;
+}
+
+.title {
+	font-size: 27px;
+	text-align: center;
+	margin-bottom: 17px;
+}
+
+
+.link {
+	border: 1px solid white;
+	border-radius: 100px;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 18px 28px 20px 28px;
+	margin-top: 50px;
+	width: 216px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	letter-spacing: 0.02em;
+	margin-bottom: 168px;
+	transition: all 0.5s;
+}
+
+.link:hover {
+	background: white;
+	color: #2d63eb;
+	font-size: 13px;
+	border: 1px solid white;
+}
+
+.link:active {
+	transition: 0s;
+	box-shadow: 0 0 25px rgba(0,0,0,0.3) inset;
+}
+
+.arrow {
+	text-align: center;
+	display: block;
+    width: 29px;
+    margin: 0 auto;
+}
+
+.about__title {
+	text-align: center;
+	font-size: 26px;
+	margin-bottom: 70px;
+}
+
+.about {
+	box-shadow: 0 -50px 50px rgba(0,0,0,.18);
+}
+
+.mission__main-title, .merits__main-title {
+	font-size: 22px;
+}
+
+.mission__main-title:after, .merits__main-title:after {
+	content: '';
+	display: block;
+	background: #2d63eb;
+	width: 72px;
+	height: 3px;
+	margin-top: 21px;
+	margin-bottom: 32px;
+}
+
+.mission__text {
+	font-size: 15px;
+	line-height: 1.6em;
+	margin-bottom: 1.5em;
+}
+
+.mission__word {
+	border-bottom: 1px solid #0e1b3e;
+	color: #0e1b3e;
+}
+
+.mission__word:hover {
+	text-decoration: none;
+	border:none;
+	cursor: pointer;
+}
+
+.merits__main-title:after {
+	margin-bottom: 38px;
+}
+.mission {
+	width: 462px;
+}
+
+.merits {
+	width: 405px;
+}
+
+.merits__title {
+	font-size: 16px;
+	text-transform: none;
+	color: #2d63eb;
+}
+
+.merits__text {
+	color: #b6b8b8;
+	font-size: 15px;
+	text-transform: none;
+}
+
+.merits__icon {
+	width: 51px;
+	height: 51px;
+	background: #2d63eb url('../img/bug.png') no-repeat center center;
+	border-radius: 10px;
+	margin-right: 25px;
+}
+
+.merits__icon_bell {
+	background: #2d63eb url('../img/bell.png') no-repeat center center;
+}
+
+.merits__icon_storm {
+	background: #2d63eb url('../img/storm.png') no-repeat center center;
+}
+
+.merits__icon_camera {
+	background: #2d63eb url('../img/camera.png') no-repeat center center;
+}
+
+.merits__item {
+	margin-bottom: 27px;
+}
+
+.merits__items {
+
+	width: 280px;
+}
+
+.reasons__title {
+	text-align: center;
+	font-size: 26px;
+	margin-bottom: 60px;
+}
+
+.reasons {
+	padding-bottom: 117px;
+	padding-top: 91px;
+}
+
+.reasons__text {
+	
+	height: 75px;
+	width: 75px;
+	border: 1px solid #ffb431;
+	padding: 17px 29px 18px 28px;
+	color: #ffb431;
+	border-radius: 50%;
+	font-size: 30px;
+	font-weight: normal;
+	margin:0 auto;
+	transition: all 0.5s;
+}
+
+.reasons__text:hover {
+	color: white;
+	background: #ffb431;
+	cursor: default;
+}
+
+.reasons__title-text {
+	font-size: 16px;
+	text-transform: none;
+	text-align: center;
+	margin-top: 13px;
+
+}
+
+.reasons__items {
+	justify-content: space-between;
+	width: 775px;
+	margin: 0 auto;
+}
+
+.methinks {
+	background: #e6e9f1;
+	padding-bottom: 112px;
+}
+
+.methinks__title {
+	font-size: 22px;
+	text-align: center;
+	padding-top: 4px;
+	margin-bottom: 16px;
+}
+
+.methinks__text {
+	font-size: 14px;
+	width: 415px;
+	margin:0 auto;
+	text-align: center;
+	margin-bottom: 26px;
+}
+
+.link_methinks {
+	background: #2d63eb;
+	color: white;
+	margin-bottom: 0;
+}
+.link_methinks:hover {
+	background: transparent;
+	
+	border: 1px solid #2d63eb;
+}
+
+.link_methinks:active {
+	box-shadow: 0 0 25px rgba(0,0,0,0.3) inset;
+}
+
+.footer {
+	background: #06319e;
+	padding: 46px;
+	text-align: center;
+}
+
+.foorer__text {
+	font-size: 13px;
+	color: #aeb6d7;
+	width: 190px;
+	cursor: default;
+}
+
+.foorer__link {
+	color: #aeb6d7;
+	font-size: 13px;
+	border-bottom: 1px dotted;
+}
+
+.foorer__link:hover {
+	color: grey;
+	transition: 0.5s;
+}
+
+.foorer__link:active {
+	transition: none;
+	color: black;
+}
